@@ -1,0 +1,267 @@
+body {
+    background-color: #808000;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+#main {
+    margin-left: 150px;
+    margin-top: 200px;
+}
+
+.head_polosa_fon{
+    background-color: #808000;
+    width: 40px;
+    height: 300px;
+    position: absolute;
+    z-index: 5;
+    left: 118px;
+    top: 250px;
+}
+
+.head {
+    background: linear-gradient(to right, #D3AFB6,#FFD1DA);
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    position: absolute;
+    z-index: -19;
+}
+
+.head_left_ugol {
+    background-color: #8B0000;
+    width: 50px;
+    height: 150px;
+    position: absolute;
+    transform: rotate(-40deg);
+    z-index: -18;
+    left: 170px;
+    top: 380px;
+    border-radius: 16px;
+}
+
+.head_right_ugol {
+    background-color: #808000;
+    width: 50px;
+    height: 300px;
+    position: absolute;
+    transform: rotate(40deg);
+    z-index: -18;
+    left: 450px;
+    top: 250px;
+}
+
+.eye_l {
+    background-color: #000;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    position: absolute;
+    top: 310px;
+    left: 235px;
+    z-index: -8;
+    animation: eye_center 1.1s ease-out infinite alternate;
+}
+
+.eye_white_l {
+    background-color: #fff;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    position: absolute;
+    top: 300px;
+    left: 230px;
+    z-index: -9;
+}
+
+.eye_r {
+    background-color: #000;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    position: absolute;
+    top: 310px;
+    left: 375px;
+    z-index: -8;
+    animation: eye_center 1.1s ease-out infinite alternate, eye_color 4s ease-out infinite alternate;
+}
+
+.eye_white_r {
+    background-color: #fff;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    position: absolute;
+    top: 300px;
+    left: 370px;
+    z-index: -9;
+}
+
+.hear_circle_1,.hear_circle_2,.hear_circle_3,.hear_circle_4,.hear_circle_5
+,.hear_circle_6,.hear_circle_7,.hear_circle_8,.hear_circle_9 {
+    background-color: #8B0000;
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    border-radius: 80%;
+
+}
+
+.hear_circle_1 {
+    top: 250px;
+    left: 150px;
+    z-index: -9;
+}
+
+.hear_circle_2 {
+    top: 210px;
+    left: 160px;
+    z-index: -9;
+}
+
+.hear_circle_3 {
+    top: 190px;
+    left: 200px;
+    z-index: -9;
+}
+
+.hear_circle_4 {
+    top: 170px;
+    left: 240px;
+    z-index: -9;
+}
+
+.hear_circle_5 {
+    top: 150px;
+    left: 280px;
+    z-index: -9;
+}
+
+.hear_circle_6 {
+    top: 170px;
+    left: 320px;
+    z-index: -9;
+}
+
+.hear_circle_7 {
+    top: 210px;
+    height: 400px;
+    width: 100px;
+    z-index: -20;
+    border-radius: 60px;
+}
+
+.hear_circle_8 {
+    top: 250px;
+    height: 300px;
+    width: 20px;
+    z-index: -9;
+    border-radius: 60px;
+}
+
+.mouth_up_l {
+    background-color: #800080;
+    width: 35px;
+    height: 15px;
+    border-radius: 90%;
+    position: absolute;
+    top: 400px;
+    left: 300px;
+    transform: rotate(-15deg);
+}
+
+.mouth_up_r {
+    background-color: #800080;
+    width: 35px;
+    height: 15px;
+    border-radius: 90%;
+    position: absolute;
+    top: 400px;
+    left: 320px;
+    transform: rotate(15deg);
+}
+
+.mouth_down {
+    background-color: #800080;
+    width: 55px;
+    height: 15px;
+    border-radius: 70%;
+    position: absolute;
+    top: 412px;
+    left: 300px;
+    animation: down_leps 1s ease-out infinite alternate;
+}
+.mouth_up_circle {
+    background-color: #FFC0CB;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    position: absolute;
+    top: 387px;
+    left: 320px;
+}
+
+.head_sheya {
+    background: linear-gradient(0deg, #FFC0CB,#E2ACB6);
+    width: 400px;
+    height: 300px;
+    position: absolute;
+    left: 120px;
+    top: 440px;
+    z-index: -22;
+}
+
+.head_sheya_bok_l {
+    background-color: #808000;
+    width: 300px;
+    height: 400px;
+    position: absolute;
+    left: 385px;
+    top: 320px;
+    z-index: -21;
+    transform: rotate(-30deg);
+}
+
+.head_sheya_bok_r {
+    background-color: #808000;
+    width: 300px;
+    height: 400px;
+    position: absolute;
+    left: -55px;
+    top: 320px;
+    z-index: -21;
+    transform: rotate(30deg);
+}
+
+.head_sheya_circle{
+    background-color: #808000;
+    width: 500px;
+    height: 160px;
+    position: absolute;
+    border-radius: 35%;
+    top: 610px;
+    left: 70px;
+    z-index: -21;
+}
+
+.text {
+    font-size: 350%;
+    font-weight: 900;
+    font-family: Courier New;
+    top: 70px;
+    position: absolute;
+    color: #303008;
+
+}
+
+.text_shtorka {
+    background-color: #808000;
+    width: 470px;
+    height: 100px;
+    position: absolute;
+    top: 30px;
+    left: 0px;
+    animation: text_animanion 1.5s steps(1) infinite;
+}

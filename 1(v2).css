@@ -1,0 +1,158 @@
+body {
+    background-color: C1D2FE;
+    background-image: url(k/fon.jpg);
+    margin: 0;
+    background-size: 110%;
+    background-repeat: no-repeat;
+
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #556B2F;
+    padding: 11px;
+    background-color: #9ACD32;
+    font-size: 150%;
+    font-weight: 900;
+    border: 0.5px solid #556B2F;
+}
+
+.menu li,.first ul,.second ul,.third ul {
+    display: inline;
+}
+
+.panel {
+    width: 100%;
+    height: 50px;
+    background-color: #9ACD32;
+    position: fixed;
+    z-index: 10;
+}
+
+.menu {
+    position: fixed;
+    top: 15px;
+    left: 20px;
+    z-index: 11;
+    margin-left: 100px;
+}
+
+.text {
+    color: #FFF;
+    min-width: 10%;
+    max-width: 110%;
+
+}
+
+.first0 {
+    top: -16px;
+    left: 50px;
+    position: absolute;
+}
+
+.second0 {
+    top: -16px;
+    left: 200px;
+    position: absolute;
+}
+
+.third0 {
+    top: -16px;
+    left: 350px;
+    position: absolute;
+}
+
+.second1,.second2,.second3,.third1,.third2,.third3 {
+    opacity: 0;
+    top: 35px;
+    left: 4450px;
+}
+
+.first1,.first2,.first3,.second1,.second2,.second3,.third1,.third2,.third3 {
+    top: -9935px;
+    left: 50px;
+    position: absolute;
+}
+
+.first2 {
+    left: 114px;
+}
+.first3 {
+    left: 178px;
+}
+
+.second1 {
+    left: 200px;
+}
+
+.second2 {
+    left: 292px;
+}
+
+.second3 {
+    left: 384px;
+}
+
+.third1 {
+    left: 350px;
+}
+
+.third2 {
+    left: 422px;
+}
+
+.third3 {
+    left: 494px;
+}
+
+.menu_first {
+    opacity: 1;
+    position: absolute;
+    left: 0px;
+}
+
+.menu_second {
+    opacity: 1;
+    position: absolute;
+    left: 0px;
+}
+
+.menu_third {
+    opacity: 1;
+    position: absolute;
+    left: 0px;
+}
+
+.list_second:hover .second0,.list_third:hover .third0, .list_first:hover .first0{
+    background-color: #B22222;
+    color: #fff;
+}
+
+.first1:hover,.first2:hover,.first3:hover,.second1:hover,.second2:hover,
+.second3:hover,.third1:hover,.third2:hover,.third3:hover {
+    background-color: #B22222;
+    color: #fff;
+}
+
+.list_first:hover .menu_first,.list_first:hover .first1,
+.list_first:hover .first2,.list_first:hover .first3 {
+    opacity: 1;
+    top:17.5px;
+}
+
+.list_second:hover .menu_second,.list_second:hover .second1,
+.list_second:hover .second2,.list_second:hover .second3 {
+    opacity: 1;
+    top:17.5px;
+}
+
+.list_third:hover .menu_third,.list_third:hover .third1,
+.list_third:hover .third2,.list_third:hover .third3 {
+    opacity: 1;
+    top:17.5px;
+}

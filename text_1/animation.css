@@ -1,0 +1,33 @@
+@keyframes ravno_one {
+    from {
+        transform: rotate(-90deg);
+    }
+    to {
+        transform: rotate(0deg);
+    }
+}
+
+@keyframes grey_fon {
+    from {
+        transform: translate(0px, -500px);
+        opacity: 0;
+    }
+    to {
+        transform: translate(0px, 0px);
+        opacity: 1;
+    }
+}
+
+@keyframes black_inviz {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+
+    }
+    100%{
+        z-index: 5;
+        opacity: 0;
+    }
+}

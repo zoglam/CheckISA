@@ -1,0 +1,88 @@
+
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 75%}
+    50%{background-position:100% 26%}
+    100%{background-position:0% 75%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 75%}
+    50%{background-position:100% 26%}
+    100%{background-position:0% 75%}
+}
+@-o-keyframes AnimationName {
+    0%{background-position:0% 75%}
+    50%{background-position:100% 26%}
+    100%{background-position:0% 75%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 75%}
+    50%{background-position:100% 26%}
+    100%{background-position:0% 75%}
+}
+
+body {
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: 100%;
+
+    background: linear-gradient(32deg, #662924, #ab6e13, #98a22d, #192daf, #1b8225, #84118d);
+    background-size: 1200% 1200%;
+
+    -webkit-animation: AnimationName 5s ease infinite;
+    -moz-animation: AnimationName 5s ease infinite;
+    -o-animation: AnimationName 5s ease infinite;
+    animation: AnimationName 5s ease infinite;
+
+    zoom: 1;
+}
+
+.c1, .c2, .c3, .c4, .c5, .c6, .c7, .fig {
+    border-radius: 7px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.c2 {
+    border: 1px solid #DC143C;
+    display: inline-block;
+    text-decoration: none;
+    color: #FFFFFF;
+    background-color: #4169E1;
+
+}
+
+.c2:hover {
+    background: linear-gradient(to bottom, #000000, #4169E1);
+    color: #A9A9A9;
+}
+
+p {
+    margin-left: auto;
+    margin-right: auto;
+    width: 350px;
+    zoom: 2;
+}
+
+P.fig {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    width: 550px;
+}
+
+textarea {
+    resize: none;
+    border-radius: 5px;
+}
+.c10 {
+    padding-left: 125px;
+    zoom: 2;
+}

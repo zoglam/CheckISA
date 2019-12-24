@@ -1,0 +1,159 @@
+body {
+    background-color: #8A2BE2;
+    background-image: radial-gradient(#00FFFF 5px, transparent 35px);
+    background-size: 25px 25px;
+    -webkit-animation: AnimationName 0.00001s steps(2) infinite;
+    -moz-animation: AnimationName 0.00001s steps(2) infinite;
+    animation: AnimationName 0.00001s steps(2) infinite;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+    zoom: 2;
+
+}
+
+.main IMG {
+    position: absolute;
+}
+
+.main {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    height: 300px;
+    width: 612px;
+    position: relative;
+}
+
+.fon {
+    width: 610px;
+    height: 350px;
+    left: 0px;
+    top: 5px;
+    z-index: -10;
+    animation: fontan_inviz 0.001s steps(1) 22.6s forwards;
+}
+
+.ring {
+    width: 612px;
+    height: 250px;
+    left: -1px;
+    top: 109px;
+    transform: rotate(-0.6deg) scale(1);
+    animation: ring_deg 0.3s ease-out 0s infinite alternate,
+    fix_deg 0.1s ease-out 10.3s forwards,
+    fontan_inviz 0.001s steps(1) 22.6s forwards;
+    z-index: -8;
+
+}
+
+.logan {
+    width: 300px;
+    height: 250px;
+    top: 50px;
+    left: 300px;
+    z-index: -3;
+    animation: fontan_inviz 0.001s steps(1) 22.6s forwards;
+}
+
+.ksi {
+    width: 120px;
+    height: 200px;
+    top: 80px;
+    left: 100px;
+    z-index: -2;
+    animation: fontan_inviz 0.001s steps(1) 22.6s forwards;
+}
+
+.cry_right {
+    width: 15px;
+    height: 10px;
+    top: 187px;
+    left: 170px;
+    animation: cry_right 1.2s ease-out 0s infinite normal;
+    z-index: -1;
+    opacity: 0;
+    animation-iteration-count:8;
+}
+
+.cry_left {
+    width: 15px;
+    height: 10px;
+    top: 172px;
+    left: 131px;
+    animation: cry_left 1.2s ease-out 0.5s infinite normal;
+    z-index: -1;
+    opacity: 0;
+    animation-iteration-count: 8;
+}
+
+.water {
+    width: 155px;
+    height: 20px;
+    top: 315px;
+    left: 85px;
+    z-index: -3;
+    transform: rotate(-1.8deg);
+    opacity: 0;
+    transform: scale(2.0);
+    animation: water_inviz 8.2s ease-out 0s forwards;
+}
+
+.date {
+    width: 150px;
+    height: 50px;
+    z-index: 0;
+    animation: fontan_inviz 0.001s steps(1) 22.6s forwards;
+}
+
+.sanya {
+    width: 20px;
+    height: 30px;
+    top: 326px;
+    left: 390px;
+    opacity: 0;
+    transform: rotate(-20.6deg) scale(1);
+    animation: sanya_inviz 1.0s ease-out 3.2s infinite alternate,
+    fontan_inviz 0.3s ease-out 15.3s forwards;
+    z-index: 1;
+}
+
+.fontan {
+    width: 155px;
+    height: 290px;
+    top: 98px;
+    left: 81px;
+    opacity: 0;
+    animation: fontan_antiinviz 0.1s ease-out 10s forwards,fontan_inviz 0.1s ease-out 22.3s forwards;
+}
+
+.okean {
+    width: 610px;
+    height: 0px;
+    top: 362px;
+    opacity: 1;
+    animation: okean_up 12.0s ease-out 10.3s forwards,
+    fontan_inviz 0.001s steps(1) 22.6s forwards;
+    z-index: 2;
+}
+
+.isa {
+    width: 400px;
+    height: 350px;
+    top: 5px;
+    left: 100px;
+    z-index: 3;
+    opacity: 0;
+    animation: vertelka 0.1s ease 22.6s infinite;
+}
+
+.boom {
+    width: 150px;
+    height: 150px;
+    top: 75px;
+    left: 230px;
+    z-index: 4;
+    opacity: 0;
+    animation: up_size_x4 0.5s ease 22.4s forwards, fontan_inviz 0.001s steps(1) 22.7s forwards;
+}

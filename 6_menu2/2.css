@@ -1,0 +1,48 @@
+.fon {
+    color: #FFFFFF;
+    margin-top: -600px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 40px;
+    width: 300px;
+    text-align: center;
+    position: relative;
+}
+
+.k7 {
+    position: absolute;
+    height: 700px;
+    width: 600px;
+    top: 1px;
+    left: -150px;
+    z-index: -5;
+}
+
+.k8 {
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    top: 660px;
+    left: 365px;
+    z-index: -4;
+    animation: ball_fly 2.5s ease-out 0s infinite alternate;
+}
+
+.k8-1 {
+    position: absolute;
+    width: 115px;
+    height: 50px;
+    top: 642px;
+    left: -100px;
+    z-index: -3;
+
+}
+
+.k8-2 {
+    position: absolute;
+    width: 34px;
+    height: 33px;
+    top: 659px;
+    left: 361px;
+    z-index: -3;
+}

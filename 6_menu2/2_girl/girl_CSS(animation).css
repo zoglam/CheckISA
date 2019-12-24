@@ -1,0 +1,62 @@
+@keyframes down_leps {
+    from {
+        transform: translate(-2px, 0px);
+    }
+    to {
+        transform: translate(2px, 0px);
+    }
+}
+
+@keyframes eye_center {
+    0% {
+        transform: translate(0px, 0px);
+    }
+    50% {
+        transform: translate(15px, -5px);
+    }
+    100% {
+        transform: translate(30px, 0px);
+    }
+}
+
+@keyframes eye_color {
+    0% {
+        background-color: #000;
+    }
+    10% {
+        background-color: #003025;
+    }
+    100% {
+        background-color: #000;
+    }
+}
+
+@keyframes text_animanion {
+    0% {
+        transform: translate(158px, 0px);
+    }
+    10% {
+        transform: translate(192px, 0px);
+    }
+    20% {
+        transform: translate(226px, 0px);
+    }
+    30% {
+        transform: translate(275px, 0px);
+    }
+    40% {
+        transform: translate(328px, 0px);
+    }
+    50% {
+        transform: translate(360px, 0px);
+    }
+    60% {
+        transform: translate(393px, 0px);
+    }
+    70% {
+        transform: translate(429px, 0px);
+    }
+    80% {
+        transform: translate(464px, 0px);
+    }
+}

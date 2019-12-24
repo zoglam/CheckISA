@@ -1,0 +1,129 @@
+body {
+    background-color: #000000;
+    margin-top: 80px;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+@keyframes turning {
+    0% {
+        transform: rotate(-0.5deg);
+    }
+    25% {
+        transform: rotate(0.5deg);
+    }
+    50% {
+        transform: rotate(-0.5deg);
+    }
+    75% {
+        transform: rotate(0.5deg);
+    }
+    100% {
+        transform: rotate(-0.5deg);
+    }
+}
+
+@keyframes border_color {
+    0% {
+        border-color: #921788
+    }
+    30% {
+        border-color: #4682B4
+    }
+    60% {
+        border-color: #32CD32
+    }
+    90% {
+        border-color: #F4A460
+    }
+    100% {
+        border-color: #FF0000
+    }
+}
+
+@keyframes ball_fly {
+    0% {
+        transform: translate(0px,0px) rotate(0deg)
+    }
+    20% {
+        transform: translate(-65px,-25px) rotate(60deg)
+    }
+    40% {
+        transform: translate(-150px,-45px) rotate(120deg)
+    }
+    60% {
+        transform: translate(-230px,-40px) rotate(180deg)
+    }
+    80% {
+        transform: translate(-310px,-30px) rotate(240deg)
+    }
+    100% {
+        transform: translate(-390px,0px) rotate(300deg)
+    }
+}
+
+@keyframes size_circle {
+    from {
+        transform: scale(1, 1);
+    }
+    to {
+        transform: scale(1.5, 1.5);
+    }
+}
+
+.a1, .a2, .a3, .back {
+    background-image: url(k/k3.png);
+    color: #FFFFFF;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid #008B8B;
+    border-radius: 20px;
+    box-shadow: 3px 3px 5px #000000;
+    height: 40px;
+    width: 500px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 900;
+    font-family: Courier New;
+    position: relative;
+    transform: rotate(-1deg) scale(1);
+    transition: 0.05s transform;
+}
+
+.a1:hover, .a2:hover, .a3:hover, .back:hover {
+    transform: rotate(0deg) scale(1);
+    background-image: url(k/k4.png);
+}
+
+.back {
+    width: 350px;
+    font-size: 75px;
+    line-height: 25px;
+
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a {
+    display: block;
+    color: #FFFFFF;
+    height: 100%;
+}
+
+.k5, .k6 {
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    top: 8px;
+    left: 450px;
+    z-index: -2;
+}
+
+.k5 {
+    animation: size_circle 0.5s steps(2) 0s infinite alternate;
+}
